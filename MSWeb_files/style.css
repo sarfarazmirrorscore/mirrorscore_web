@@ -295,7 +295,7 @@ header {
 
 @media (min-width: 1200px) {
   .img-holder {
-    padding-bottom: 15%;
+    padding-bottom: 20%;
   }
 }
 
@@ -930,7 +930,7 @@ header {
   }
 
   .features-text {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
   }
 
@@ -960,6 +960,10 @@ header {
     ----------------------------------*/
 
 @media screen and (min-width: 767px) {
+  #imgmain {
+    /* width: fit-content;
+    height: fit-content; */
+  }
   #imgmain-mobile {
     display: none;
   }

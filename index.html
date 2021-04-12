@@ -292,7 +292,7 @@
           <div class="row mt-5">
             <div class="col-sm-6 pt-4">
               <img
-                style="width: 400px; height: auto"
+                style="width: 400px; height: auto; padding-bottom: 20px"
                 src="./MSWeb_files/mirrorscore-classes.png"
                 alt="download"
                 class="img-fluid"
@@ -305,11 +305,19 @@
                   style="max-width: 544px; margin: auto; margin-left: 25px"
                 >
                   <div class="mb-5">
-                    <h1 class="mb-1 d-inline features-text text-black">
-                      Book Your 1-on-1 Free Class Now
+                    <!-- <h1 class="mb-1">Book Your 1-on-1 Free Class Now</h1> -->
+                    <h1 class="mb-1 d-inline features-text text-black mt-3">
+                      Book Your 1-on-1
                     </h1>
-                    <h1 class="mb-1 d-inline features-text text-white"></h1>
+                    <h1 class="mb-1 d-inline features-text text-black">
+                      Free Class Now
+                    </h1>
                   </div>
+                  <!-- <div class="mb-5">
+                    <h1 class="mb-1 d-inline features-text text-black">
+                      Free Class Now
+                    </h1>
+                  </div> -->
                   <!-- <div class="devices d-flex my-lg-4">
                 <div class="text-center">
                   <img
@@ -779,38 +787,51 @@
                 style="opacity: 0"
               >
                 <!-- <div class="testimonial">
-                                <span class="icon fa fa-quote-left"></span>
-                                <p class="description">
-                                    Very good app for doubt clearance and the best feature is quick response by faculties. We can get our doubts solved of unknown and difficult problems on time.
-                                </p>
-                                <div class="testimonial-content">
-                                    <div class="pic"><img src="static/images/img-1.jpg" alt=""></div>
-                                    <h3 class="title"> Rohit</h3>
-                                    <span class="post">Student, Class 10th</span>
-                                </div>
-                            </div>
-                            <div class="testimonial">
-                                <span class="icon fa fa-quote-left"></span>
-                                <p class="description">
-                                    This app is really very nice. I am getting all the answers of my questions. This app is soo good for the students who does not have any other support like coaching or academy.
-                                </p>
-                                <div class="testimonial-content">
-                                    <div class="pic"><img src="static/images/img-2.jpg" alt=""></div>
-                                    <h3 class="title"> Pooja</h3>
-                                    <span class="post">Student, Class 9</span>
-                                </div>
-                            </div>
-                            <div class="testimonial">
-                                <span class="icon fa fa-quote-left"></span>
-                                <p class="description">
-                                    Very very good app for studies with some great content. I like it because it has a lots of e-books and with their solutions also which is very helping especially in the lockdown period.
-                                </p>
-                                <div class="testimonial-content">
-                                    <div class="pic"><img src="static/images/img-3.jpg" alt=""></div>
-                                    <h3 class="title">Rajiv</h3>
-                                    <span class="post">Student, Class 8</span>
-                                </div>
-                            </div> -->
+                  <span class="icon fa fa-quote-left"></span>
+                  <p class="description">
+                    Very good app for doubt clearance and the best feature is
+                    quick response by faculties. We can get our doubts solved of
+                    unknown and difficult problems on time.
+                  </p>
+                  <div class="testimonial-content">
+                    <div class="pic">
+                      <img src="static/images/img-1.jpg" alt="" />
+                    </div>
+                    <h3 class="title">Rohit</h3>
+                    <span class="post">Student, Class 10th</span>
+                  </div>
+                </div> -->
+                <!-- <div class="testimonial">
+                  <span class="icon fa fa-quote-left"></span>
+                  <p class="description">
+                    This app is really very nice. I am getting all the answers
+                    of my questions. This app is soo good for the students who
+                    does not have any other support like coaching or academy.
+                  </p>
+                  <div class="testimonial-content">
+                    <div class="pic">
+                      <img src="static/images/img-2.jpg" alt="" />
+                    </div>
+                    <h3 class="title">Pooja</h3>
+                    <span class="post">Student, Class 9</span>
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <span class="icon fa fa-quote-left"></span>
+                  <p class="description">
+                    Very very good app for studies with some great content. I
+                    like it because it has a lots of e-books and with their
+                    solutions also which is very helping especially in the
+                    lockdown period.
+                  </p>
+                  <div class="testimonial-content">
+                    <div class="pic">
+                      <img src="static/images/img-3.jpg" alt="" />
+                    </div>
+                    <h3 class="title">Rajiv</h3>
+                    <span class="post">Student, Class 8</span>
+                  </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -947,7 +968,10 @@
     <small>
       <!-- jQuery and Bootstrap -->
       <script src="./MSWeb_files/bootstrap.bundle.min.js"></script>
-      <script src="./MSWeb_files/jquery-3.2.1.min.js"></script>
+      <!-- <script src="./MSWeb_files/jquery-3.2.1.min.js"></script> -->
+      <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
       <script src="./MSWeb_files/bootstrap.bundle.min(1).js"></script>
 
       <!-- Plugins JS -->
@@ -963,6 +987,40 @@
       <!-- Custom JS -->
       <script src="./MSWeb_files/script.js"></script>
       <script src="./MSWeb_files/script2.js"></script>
+      <script>
+        $.ajax({
+          type: "GET",
+          url: "http://127.0.0.1:8000/testimonial/",
+          dataType: "json",
+          success: function (result, status, xhr) {
+            // console.log(result);
+            let testimonials = result["testimonials"];
+            // console.log(testimonials);
+            let i = 0;
+            for (i = 0; i < testimonials.length; i++) {
+              // console.log(testimonials[i]);
+              $("#testimonial-slider").append(`
+              <div class="testimonial">
+                  <span class="icon fa fa-quote-left"></span>
+                  <p class="description">
+                    ${testimonials[i]["description"]}
+                  </p>
+                  <div class="testimonial-content">
+                    <div class="pic">
+                      <img src="http://127.0.0.1:8000/media/default.svg" alt="" />
+                    </div>
+                    <h3 class="title">${testimonials[i]["name"]}</h3>
+                    <span class="post">${testimonials[i]["role"]}, ${testimonials[i]["clss"]}</span>
+                  </div>
+                </div>
+              `);
+            }
+            // console.log("loaded");
+          },
+        });
+        // alert("loaded");
+        function aler() {}
+      </script>
       <script
         type="text/javascript"
         src="./MSWeb_files/owl.carousel.min.js"
