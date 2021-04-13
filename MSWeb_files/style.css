@@ -736,6 +736,12 @@ header {
   #imgmain {
     display: none;
   }
+  .text-center-on-mob {
+    text-align: center;
+    margin-left: 45%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+  }
   .schedual-button {
     /* text-align: center; */
     /* margin: auto; */
