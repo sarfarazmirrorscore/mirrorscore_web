@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="1366" height="768" transform="translate(-0.5 -0.5)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_1">
+      <rect width="1366" height="768"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="1366" height="768" fill="#fff"/>
+    <g id="Layer_4" data-name="Layer 4">
+      <g id="Group_2" data-name="Group 2">
+        <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path)">
+          <path id="Path_1" data-name="Path 1" d="M-269,706.92c505.931,0,562.292-193.979,848.025-195.979s507.242,194.979,942.4,195.979C1621.068,707.148-269,706.92-269,706.92Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_2" data-name="Path 2" d="M-269,706.006c505.931,0,562.292,193.979,848.025,195.979s507.242-194.979,942.4-195.979C1621.068,705.777-269,706.006-269,706.006Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_3" data-name="Path 3" d="M920.5,334.246c230.235,0,255.882-331.278,385.911-334.693s230.831,332.985,428.857,334.693C1780.615,334.637,920.5,334.246,920.5,334.246Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_4" data-name="Path 4" d="M920.5,176.7c230.235,0,255.882,331.278,385.911,334.693S1537.242,178.41,1735.268,176.7C1780.615,176.312,920.5,176.7,920.5,176.7Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_5" data-name="Path 5" d="M920.94,624.246c230.235,0,255.883-331.278,385.912-334.693s230.831,332.985,428.856,334.693C1781.055,624.637,920.94,624.246,920.94,624.246Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_6" data-name="Path 6" d="M920.94,466.7c230.235,0,255.883,331.278,385.912,334.693S1537.683,468.41,1735.708,466.7C1781.055,466.312,920.94,466.7,920.94,466.7Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_7" data-name="Path 7" d="M-1594,684.92c505.931,0,562.292-193.979,848.025-195.979s507.242,194.979,942.4,195.979C296.068,685.148-1594,684.92-1594,684.92Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_8" data-name="Path 8" d="M-1594,684.006c505.931,0,562.292,193.979,848.025,195.979s507.242-194.979,942.4-195.979C296.068,683.777-1594,684.006-1594,684.006Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_9" data-name="Path 9" d="M-404.5,312.246c230.235,0,255.882-331.278,385.911-334.693S212.242,310.538,410.268,312.246C455.615,312.637-404.5,312.246-404.5,312.246Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.05"/>
+          <path id="Path_10" data-name="Path 10" d="M-404.5,154.7c230.235,0,255.882,331.278,385.911,334.693S212.242,156.41,410.268,154.7C455.615,154.312-404.5,154.7-404.5,154.7Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.05"/>
+          <path id="Path_11" data-name="Path 11" d="M-404.06,602.246c230.235,0,255.883-331.278,385.912-334.693S212.683,600.538,410.708,602.246C456.055,602.637-404.06,602.246-404.06,602.246Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.05"/>
+          <path id="Path_12" data-name="Path 12" d="M-404.06,444.7c230.235,0,255.883,331.278,385.912,334.693S212.683,446.41,410.708,444.7C456.055,444.312-404.06,444.7-404.06,444.7Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.05"/>
+          <path id="Path_13" data-name="Path 13" d="M-323.5-93.5c386,0,429-194,647-196s387,195,719,196C1118.526-93.271-323.5-93.5-323.5-93.5Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+          <path id="Path_14" data-name="Path 14" d="M-323.5-94.413c386,0,429,194,647,196s387-195,719-196C1118.526-94.642-323.5-94.413-323.5-94.413Z" fill="#2bbbe7" stroke="#fff" stroke-miterlimit="10" stroke-width="17" opacity="0.21"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
